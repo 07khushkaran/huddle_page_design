@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+:root {
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+  --Pink: hsl(322, 100%, 66%);
+}
+
+/* || HEADER SECTION */
+.header_section {
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-size: cover;
+  background-color: var(--Very-Pale-Cyan);
+  min-height: 100vh;
+  padding: 4rem;
+}
+
+.hero_section {
+  padding: 4rem;
+}
+
+.hero_btn_box .btn {
+  /* background-color: hsl(193, 100%, 96%); */
+  color: hsl(192, 100%, 9%);
+  padding-inline: 3rem;
+  padding-block: 0.8rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  border: none;
+}
+
+.text_box {
+  max-width: 40%;
+}
+
+.text_box > h1 {
+  font-family: "poppins", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
+}
+
+.text_box p {
+  font-family: "poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  margin-bottom: 4rem;
+  /* width: 38rem; */
+}
+
+.text_box button {
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(207, 100%, 98%);
+  padding: 2rem 6rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  margin: 0.25rem 0.125rem 3rem;
+  cursor: pointer;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 40px;
+}
+
+.hero_img_box {
+  width: 60%;
+}
+
+.hero_img_box img {
+  height: 55rem;
+  /* width: 100%; */
+}
+
+/* || Features Section*/
+
+.features_section {
+  padding: 8rem 8rem 1rem;
+  margin-bottom: 25rem;
+  position: relative;
+}
+
+.features_card {
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  padding: 3rem;
+  gap: 5rem;
+}
+
+.features_card img {
+  height: 45rem;
+}
+
+.features_card p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--Grayish-Blue);
+  text-align: left;
+}
+
+.features-text-box h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.cta-container {
+  height: 25rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  transform: translate(-5%, -60%);
+}
+
+.cta-box {
+  height: 25rem;
+  width: 50%;
+  background-color: var(--Very-Pale-Cyan);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
+}
+
+.cta-box h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: var(--Very-Dark-Cyan);
+}
+
+.cta-box button {
+  background-color: var(--Pink);
+  height: 7rem;
+  width: 40rem;
+  border: none;
+  border-radius: 5rem;
+  color: var(--Very-Pale-Cyan);
+  font-size: 2rem;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+}
+
+/* Footer Section */
+
+.footer {
+  position: relative;
+  height: 60rem;
+  width: 100vw;
+  background-color: var(--Very-Dark-Cyan);
+  display: flex;
+  flex-direction: column;
+  padding: 0 9rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+  color: var(--Grayish-Blue);
+}
+
+.footer-logo {
+  height: 35rem;
+  position: relative;
+  top: 10rem;
+  margin-top: 10rem;
+}
+
+.footer-mid {
+  height: 100%;
+  display: flex;
+  gap: 10rem;
+}
+
+.footer-info {
+  width: 35%;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.info img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+.pg-links {
+  height: 100%;
+}
+
+.pg-links ul {
+  list-style: none;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.socials {
+  height: 100%;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.copyright {
+  height: 5rem;
+  width: 100%;
+  position: relative;
+  top: 20rem;
+  font-size: 1.2rem;
+}
